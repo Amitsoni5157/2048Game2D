@@ -4,15 +4,10 @@ using UnityEngine;
 
 public class TileCell : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public Vector2Int Cordinates { get; set; }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public Tile Tile { get; set; }
+
+    public bool is_Empty => Tile == null;
+    public bool is_Occupied => Tile != null;
 }

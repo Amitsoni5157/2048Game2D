@@ -443,6 +443,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 572703487}
+  - component: {fileID: 572703488}
   m_Layer: 5
   m_Name: GameBoard
   m_TagString: Untagged
@@ -471,6 +472,31 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 500, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &572703488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572703486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a75ae35c89dc57e479df4738b4ab84c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TilePrefab: {fileID: 6421518311606934999, guid: c2e1481b8894b3e478a4c00a0126c65f, type: 3}
+  tileStates:
+  - {fileID: 11400000, guid: ea174dc1153f3674fb5547518a7ee434, type: 2}
+  - {fileID: 11400000, guid: d62f9ea83aba63e4da946f7de28c658e, type: 2}
+  - {fileID: 11400000, guid: ce2f01e4f17a1674286e385338d5f3fb, type: 2}
+  - {fileID: 11400000, guid: f710faa529593154cbe6972e9db53496, type: 2}
+  - {fileID: 11400000, guid: d8da544580bf9bb4ca3c48754b95dc8c, type: 2}
+  - {fileID: 11400000, guid: e81967780241c714b81575e2ecaf3392, type: 2}
+  - {fileID: 11400000, guid: 5ad61499ccc410e47a5e4aafd3109fcc, type: 2}
+  - {fileID: 11400000, guid: b90abf6e96dad01409f772b46809444a, type: 2}
+  - {fileID: 11400000, guid: 9053467cb7112e54da3d401a27f3d51e, type: 2}
+  - {fileID: 11400000, guid: efd269ad52751d24581336b4db170e9f, type: 2}
+  - {fileID: 11400000, guid: a01e50844f6ced54d8768bb8a67ec119, type: 2}
 --- !u!1 &636841868
 GameObject:
   m_ObjectHideFlags: 0
