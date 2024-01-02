@@ -6,8 +6,8 @@ public class TileCell : MonoBehaviour
 {
     public Vector2Int Cordinates { get; set; }
 
-    public Tile Tile { get; set; }
+    public Tile tile { get; set; }
 
-    public bool is_Empty => Tile == null;
-    public bool is_Occupied => Tile != null;
+    public bool is_Empty => tile == null;
+    public bool is_Occupied => tile != null;
 }
